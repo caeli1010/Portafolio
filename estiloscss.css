@@ -25,6 +25,9 @@ li {
     padding: 10px;
     
 }
+a{
+    text-decoration: none;
+}
 a:link {
     color:black;
 }
@@ -121,22 +124,22 @@ a:active {
 /* ---------trabajos-------- */
 .tongaGestion{
     width: 300px;
-    height: 300px;
-    background: url(img/foto.jpg) center center no-repeat;
-    background-size: contain;
+    min-height: 350px;
+    background: url(img/detalleweb.png) center center no-repeat;
+    background-size: cover;
 }
 .tecnologiasInf{
     width: 300px;
-    height: 300px;
-    background: url(img/foto2.jpg) center center no-repeat;
-    background-size: contain;
+    min-height: 350px;
+    background: url(https://github.com/caeli1010/tp-wimform-Arevalos-Ayala/raw/main/img/Modificar.JPG) center center no-repeat;
+    background-size: cover;
 }
-.tuPlanSalud{
+/* .tuPlanSalud{
     width: 300px;
     height: 300px;
-    background: url(img/foto4.jpg) center center no-repeat;
+    background: url(img/tuPlanSalud.png) center center no-repeat;
     background-size: contain;
-}
+} */
 
 /* ------footer----- */
 .diseño{
@@ -145,7 +148,21 @@ a:active {
 .fuenteFooter{
     color: white;
 }
-
+.justificarText{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.fuenteP{
+    margin: 5px;
+    font-size: 15px;
+    align-content: center;
+    text-align: center;
+}
+.columna{
+    padding: 15px ;
+    border: 2px solid black;
+    border-radius: 10px;
+}
 /* .nav-link a{
     color: #fff;
     text-decoration: none;
