@@ -124,7 +124,7 @@ a:active {
     border: 3px solid #c5bdbd;
 }
 /* ---------trabajos-------- */
-.tongaGestion{
+/* .tongaGestion{
     width: 300px;
     min-height: 350px;
     background: url(img/detalleweb.png) center center no-repeat;
@@ -135,7 +135,7 @@ a:active {
     min-height: 350px;
     background: url(https://github.com/caeli1010/tp-wimform-Arevalos-Ayala/raw/main/img/Modificar.JPG) center center no-repeat;
     background-size: cover;
-}
+} */
 .justificarText{
     text-align: justify;
     text-justify: inter-word;
@@ -151,7 +151,7 @@ a:active {
     border-radius: 10px;
 }
 .anchoText{
-    width: 300px;
+    width: 370px;
 }
 /* .tuPlanSalud{
     width: 300px;
@@ -166,6 +166,11 @@ a:active {
 }
 .fuenteFooter{
     color: white;
+}
+.trabajos{
+    width: 370px;
+    min-height: 450px;
+    /* background-size: cover; */
 }
 /* .nav-link a{
     color: #fff;
