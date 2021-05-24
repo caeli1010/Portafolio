@@ -19,7 +19,6 @@ ul{
     list-style-type:none;
     margin: 5px;
     padding: 10px;
-    border: 3px solid #c5bdbd;
     overflow:hidden;
 }
 li {
@@ -85,35 +84,33 @@ a:active {
     font-size: 15px;
 }
 .FotoPerfil{
-    width: 670px;
-    height: 350px;
-    background: url(img/foto3.png) center no-repeat;
+    width: 650px;
+    height: 310px;
+    background: url(img/foto5.jpg) center no-repeat;
     background-size:contain;
 }
 .fuenteH3{
-    margin: 5px;
     font-size: 20px;
-    align-content: center;
     text-align: center;
 }
 .fuenteH4{
     font-size: 15px;
 }
 .espaciadoTit{
-    margin: 20px;
+    margin: 5px;
 }
 .espaciadoCont{
     margin-top: 50px;
 }
 .logoProfe{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: url(img/logoDaVinci.png) center no-repeat;
     background-size: contain;
 }
 .logoUtn{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: url(img/utnfrgp.png) center no-repeat;
     background-size: contain;
 }
@@ -122,6 +119,9 @@ a:active {
 }
 .alineacion{
     align-content: center;
+}
+.borde{
+    border: 3px solid #c5bdbd;
 }
 /* ---------trabajos-------- */
 .tongaGestion{
@@ -136,6 +136,23 @@ a:active {
     background: url(https://github.com/caeli1010/tp-wimform-Arevalos-Ayala/raw/main/img/Modificar.JPG) center center no-repeat;
     background-size: cover;
 }
+.justificarText{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.fuenteP{
+    margin: 5px;
+    font-size: 15px;
+    align-content: center;
+    /* text-align: center; */
+}
+.columna{
+    padding: 15px ;
+    border-radius: 10px;
+}
+.anchoText{
+    width: 300px;
+}
 /* .tuPlanSalud{
     width: 300px;
     height: 300px;
@@ -149,21 +166,6 @@ a:active {
 }
 .fuenteFooter{
     color: white;
-}
-.justificarText{
-    text-align: justify;
-    text-justify: inter-word;
-}
-.fuenteP{
-    margin: 5px;
-    font-size: 15px;
-    align-content: center;
-    text-align: center;
-}
-.columna{
-    padding: 15px ;
-    border: 2px solid black;
-    border-radius: 10px;
 }
 /* .nav-link a{
     color: #fff;
