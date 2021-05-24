@@ -168,9 +168,20 @@
     </section>
     <footer id="Contactos">
         <div class="espaciadoCont">
-            <div class="flex-container diseño">
+            <div class="flex-container diseño alineacion columna">
                 <div>
-                    <h4 class="fuenteFooter">Correo electronico</h4>
+                    <hgroup>
+                        <h4 class="fuenteFooter">Contáctame</h4>
+                    </hgroup>
+                    <form >
+                        <label for='nombre'> Nombre: </label><br></br>
+                        <input type='text' id='nombre' name="nombre" placeholder="Escriba su nombre" required >
+                        <label for='correo'> Correo: </label>
+                        <input type='text' id='correo' name="correo" placeholder="Escriba su correo" required>
+                        <label for='mensaje'> Mensaje: </label>
+                        <input type='text' id='mensaje' name="mensaje" placeholder="Escriba su mensaje">
+                        <input type='submit' >
+                    </form>
                 </div>
             </div>
         </div>
