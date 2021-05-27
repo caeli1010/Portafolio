@@ -168,19 +168,27 @@
     </section>
     <footer id="Contactos">
         <div class="espaciadoCont">
-            <div class="flex-container diseño alineacion columna">
+            <div class="flex-container diseño alineacion columna fuenteFooter">
                 <div>
                     <hgroup>
-                        <h4 class="fuenteFooter">Contáctame</h4>
+                        <h4>Contáctame</h4>
                     </hgroup>
-                    <form >
-                        <label for='nombre'> Nombre: </label><br></br>
-                        <input type='text' id='nombre' name="nombre" placeholder="Escriba su nombre" required >
-                        <label for='correo'> Correo: </label>
-                        <input type='text' id='correo' name="correo" placeholder="Escriba su correo" required>
-                        <label for='mensaje'> Mensaje: </label>
-                        <input type='text' id='mensaje' name="mensaje" placeholder="Escriba su mensaje">
-                        <input type='submit' >
+                    <form action="mensaje.cs" method="POST">
+                        <div>
+                            <label for='nombre'> Nombre: </label>
+                            <input type='text' id='nombre' name="nombre" placeholder="Escriba su nombre" required >
+                        </div>
+                        <div>
+                            <label for='correo'> Correo:  </label>
+                            <input type='email' id='correo' name="correo" placeholder="Escriba su correo" required>
+                        </div>
+                        <div>
+                            <label for='mensaje'> Mensaje:  </label>
+                            <textarea name="mensaje" id="mensaje" cols="20" rows="10" required></textarea>
+                        </div>
+                        <div>
+                            <input type='submit' >
+                        </div>
                     </form>
                 </div>
             </div>
