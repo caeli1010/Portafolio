@@ -94,9 +94,9 @@ a:active {
     font-size: 15px;
 }
 .FotoPerfil{
-    width: 650px;
-    height: 310px;
-    background: url(img/foto5.jpg) center no-repeat;
+    width: 400px;
+    height: 260px;
+    background: url(img/elifoto\ .jpg) center no-repeat;
     background-size:contain;
 }
 .fuenteH3{
